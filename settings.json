@@ -1,0 +1,37 @@
+{
+    "jetbrainsKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.formatOnPaste": true,
+    "workbench.colorTheme": "Monokai",
+    "files.autoSaveDelay": 4500,
+    "files.autoSave": "off",
+    "workbench.startupEditor": "newUntitledFile",
+    "multiCommand.commands": [
+        {
+            "command": "multiCommand.toggleCommentAndLineDown",
+            "sequence": [
+                "editor.action.commentLine",
+                "cursorDown"
+            ]
+        },
+    ],
+    "explorer.confirmDelete": false,
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "material-icon-theme.folders.theme": "classic",
+    "nativescript.analytics.enabled": false,
+    "material-icon-theme.folders.color": "#90a4ae",
+    "emmet.triggerExpansionOnTab": true,
+    "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+    "bracket-pair-colorizer-2.showBracketsInGutter": true,
+    "bracket-pair-colorizer-2.colors": [
+        "#feda6a",
+        "#FFA500",
+        "#ec7f37",
+        "#fa625f",
+    ],
+    "commentAnchors.workspace.excludeFiles": "**/{node_modules,platforms,.git,.idea,target,out,build,vendor}/**/*",
+    "window.zoomLevel": 0,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "javascript.implicitProjectConfig.experimentalDecorators": true
+}
