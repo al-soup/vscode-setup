@@ -1,4 +1,5 @@
 # My Visual Studio Code IDE Settings
+
 `settings.json` and `keybindings.json` are used to custumize the [VS Code IDE](https://code.visualstudio.com/).
 
 You can use it by replacing the existing ones. In **macOS** the files are located under *$HOME/Library/Application Support/Code/User/settings.json*. In **Linux** they are under *$HOME/.config/Code/User/settings.json*.
