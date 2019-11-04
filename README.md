@@ -1,4 +1,4 @@
-# My Visual Studio Code IDE Settings
+# My Visual Studio Code IDE Settings
 
 `settings.json` and `keybindings.json` are used to custumize the [VS Code IDE](https://code.visualstudio.com/).
 
