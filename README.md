@@ -48,4 +48,5 @@ Telerik.nativescript
 vincaslt.highlight-matching-tag
 wayou.vscode-todo-highlight
 wix.vscode-import-cost
+yzane.markdown-pdf
 ```
