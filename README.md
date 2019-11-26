@@ -44,6 +44,7 @@ naumovs.color-highlight
 PKief.material-icon-theme
 Prisma.vscode-graphql
 ryuta46.multi-command
+skyapps.fish-vscode
 Telerik.nativescript
 vincaslt.highlight-matching-tag
 wayou.vscode-todo-highlight
