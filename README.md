@@ -38,3 +38,5 @@ vincaslt.highlight-matching-tag
 wix.vscode-import-cost
 yzane.markdown-pdf
 ```
+
+**Batch install**: If you have the [fish shell](https://fishshell.com/) installed you can batch install a list of extensions by saving them under *vs-extensions.txt* in the format above and using [one of my functions](https://github.com/al-soup/my-fish-functions/blob/master/vscodeinstall.fish). Run `vscodeinstall vs-extensions.txt`.
