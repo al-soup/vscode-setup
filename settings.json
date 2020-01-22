@@ -1,11 +1,17 @@
 {
-    "jetbrainsKeymap.promptV3Features": true,
     "editor.multiCursorModifier": "ctrlCmd",
     "editor.formatOnPaste": true,
-    "workbench.colorTheme": "Monokai",
+    "editor.tabSize": 2,
+    "editor.fontFamily": "Dank Mono",
+    "editor.fontSize": 13,
+    "editor.fontLigatures": true,
+    "workbench.colorTheme": "Monokai Operator",
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.iconTheme": "material-icon-theme",
     "files.autoSaveDelay": 4500,
     "files.autoSave": "off",
-    "workbench.startupEditor": "newUntitledFile",
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": 0,
     "multiCommand.commands": [
         {
             "command": "multiCommand.toggleCommentAndLineDown",
@@ -15,9 +21,7 @@
             ]
         },
     ],
-    "explorer.confirmDelete": false,
     "typescript.updateImportsOnFileMove.enabled": "always",
-    "workbench.iconTheme": "material-icon-theme",
     "material-icon-theme.folders.theme": "classic",
     "nativescript.analytics.enabled": false,
     "material-icon-theme.folders.color": "#90a4ae",
@@ -31,12 +35,12 @@
         "#fa625f",
     ],
     "commentAnchors.workspace.excludeFiles": "**/{node_modules,platforms,.git,.idea,target,out,build,vendor}/**/*",
-    "window.zoomLevel": 0,
     "javascript.updateImportsOnFileMove.enabled": "always",
     "javascript.implicitProjectConfig.experimentalDecorators": true,
-    "editor.formatOnSave": false,
+    "editor.formatOnSave": true,
     "[javascript]": {
-        "editor.formatOnSave": false
+        "editor.formatOnSave": false,
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascriptreact]": {
         "editor.formatOnSave": false
@@ -65,5 +69,20 @@
         "window.activeBorder": "#d1cdcd11",
         "activityBar.activeBorder": "#FFA500",
         "activityBarBadge.background": "#ff0000",
-    }
+        "editor.findMatchBackground": "#e29300c4"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "vscode_custom_css.policy": true,
+    "prettier.requireConfig": true,
+    "prettier.singleQuote": true,
+    "prettier.trailingComma": "es5",
+    "jetbrainsKeymap.promptV3Features": true,
 }
