@@ -1,88 +1,58 @@
 {
-    "editor.multiCursorModifier": "ctrlCmd",
-    "editor.formatOnPaste": true,
-    "editor.tabSize": 2,
-    "editor.fontFamily": "Dank Mono",
-    "editor.fontSize": 13,
-    "editor.fontLigatures": true,
-    "workbench.colorTheme": "Monokai Operator",
-    "workbench.startupEditor": "newUntitledFile",
-    "workbench.iconTheme": "material-icon-theme",
-    "files.autoSaveDelay": 4500,
-    "files.autoSave": "off",
-    "explorer.confirmDelete": false,
-    "window.zoomLevel": 0,
-    "multiCommand.commands": [
-        {
-            "command": "multiCommand.toggleCommentAndLineDown",
-            "sequence": [
-                "editor.action.commentLine",
-                "cursorDown"
-            ]
-        },
-    ],
-    "typescript.updateImportsOnFileMove.enabled": "always",
-    "material-icon-theme.folders.theme": "classic",
-    "nativescript.analytics.enabled": false,
-    "material-icon-theme.folders.color": "#90a4ae",
-    "emmet.triggerExpansionOnTab": true,
-    "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
-    "bracket-pair-colorizer-2.showBracketsInGutter": true,
-    "bracket-pair-colorizer-2.colors": [
-        "#feda6a",
-        "#FFA500",
-        "#ec7f37",
-        "#fa625f",
-    ],
-    "commentAnchors.workspace.excludeFiles": "**/{node_modules,platforms,.git,.idea,target,out,build,vendor}/**/*",
-    "javascript.updateImportsOnFileMove.enabled": "always",
-    "javascript.implicitProjectConfig.experimentalDecorators": true,
-    "editor.formatOnSave": true,
-    "[javascript]": {
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.fontFamily": "Dank Mono",
+  "editor.fontSize": 13,
+  "editor.fontLigatures": true,
+  "editor.lineNumbers": "relative",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.tslint": true
+  },
+  "workbench.colorTheme": "Monokai Operator",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.iconTheme": "material-icon-theme",
+  "files.autoSaveDelay": 4500,
+  "files.autoSave": "off",
+  "explorer.confirmDelete": false,
+  "window.zoomLevel": 0,
+  "multiCommand.commands": [
+    {
+      "command": "multiCommand.toggleCommentAndLineDown",
+      "sequence": [
+        "editor.action.commentLine",
+        "cursorDown"
+      ]
     },
-    "[javascriptreact]": {
-        "editor.formatOnSave": false
-    },
-    "[typescript]": {
-        "editor.formatOnSave": false,
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "[typescriptreact]": {
-        "editor.formatOnSave": false
-    },
-    "eslint.autoFixOnSave": true,
-    "eslint.validate": [
-        "javascript",
-        "javascriptreact",
-        {
-            "language": "typescript",
-            "autoFix": true
-        },
-        {
-            "language": "typescriptreact",
-            "autoFix": true
-        }
-    ],
-    "workbench.colorCustomizations": {
-        "window.activeBorder": "#d1cdcd11",
-        "activityBar.activeBorder": "#FFA500",
-        "activityBarBadge.background": "#ff0000",
-        "editor.findMatchBackground": "#e29300c4"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
-    "[json]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
-    },
-    "vscode_custom_css.policy": true,
-    "prettier.requireConfig": true,
-    "prettier.singleQuote": true,
-    "prettier.trailingComma": "es5",
-    "jetbrainsKeymap.promptV3Features": true,
+  ],
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.preferences.quoteStyle": "double",
+  "javascript.preferences.quoteStyle": "double",
+  "material-icon-theme.folders.theme": "classic",
+  "nativescript.analytics.enabled": false,
+  "material-icon-theme.folders.color": "#90a4ae",
+  "emmet.triggerExpansionOnTab": true,
+  "bracket-pair-colorizer-2.showHorizontalScopeLine": false,
+  "bracket-pair-colorizer-2.showBracketsInGutter": true,
+  "bracket-pair-colorizer-2.colors": [
+    "#feda6a",
+    "#FFA500",
+    "#ec7f37",
+    "#fa625f",
+  ],
+  "commentAnchors.workspace.excludeFiles": "**/{node_modules,platforms,.git,.idea,target,out,build,vendor}/**/*",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.implicitProjectConfig.experimentalDecorators": true,
+  "editor.formatOnSave": true,
+  "workbench.colorCustomizations": {
+    "window.activeBorder": "#d1cdcd11",
+    "activityBar.activeBorder": "#FFA500",
+    "activityBarBadge.background": "#ff0000",
+    "editor.findMatchBackground": "#e29300c4"
+  },
+  "vscode_custom_css.policy": true,
+  "prettier.requireConfig": true,
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "es5",
+  "typescriptHero.imports.stringQuoteStyle": "\"",
 }

@@ -9,21 +9,21 @@ You can use it by replacing the existing ones. In **macOS** the files are locate
 `code --list-extensions`
 
 ```console
+Angular.ng-template
 be5invis.vscode-custom-css
 christian-kohler.npm-intellisense
 christian-kohler.path-intellisense
 CoenraadS.bracket-pair-colorizer-2
 dbaeumer.vscode-eslint
 donjayamanne.githistory
+DSKWRK.vscode-generate-getter-setter
 esbenp.prettier-vscode
 ExodiusStudios.comment-anchors
 huizhou.githd
-isudox.vscode-jetbrains-keybindings
 jakethashi.vscode-angular2-emmet
 joelday.docthis
 johnpapa.Angular2
 jspolancor.presentationmode
-k--kato.intellij-idea-keybindings
 markfknight.monokai-operator-theme
 ms-mssql.mssql
 ms-vscode.vscode-typescript-tslint-plugin
@@ -31,10 +31,13 @@ msjsdiag.debugger-for-chrome
 naumovs.color-highlight
 PKief.material-icon-theme
 Prisma.vscode-graphql
+rbbit.typescript-hero
 ryuta46.multi-command
 skyapps.fish-vscode
+steoates.autoimport
 Telerik.nativescript
 vincaslt.highlight-matching-tag
+vscodevim.vim
 wix.vscode-import-cost
 yzane.markdown-pdf
 ```

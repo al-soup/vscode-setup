@@ -1,53 +1,66 @@
 // Place your key bindings in this file to overwrite the defaults
 [
-    {
-        "key": "cmd+[Backslash]",
-        "command": "multiCommand.toggleCommentAndLineDown",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "shift+cmd+7",
-        "command": "-editor.action.commentLine",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "f8",
-        "command": "editor.action.marker.nextInFiles",
-        "when": "editorFocus && !editorReadonly"
-    },
-    {
-        "key": "f8",
-        "command": "-editor.action.marker.nextInFiles",
-        "when": "editorFocus && !editorReadonly"
-    },
-    {
-        "key": "cmd+t",
-        "command": "workbench.action.terminal.toggleTerminal",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "alt+f12",
-        "command": "-workbench.action.terminal.toggleTerminal",
-        "when": "terminalFocus"
-    },
-    {
-        "key": "shift+cmd+t",
-        "command": "workbench.action.terminal.new"
-    },
-    {
-        "key": "shift+alt+s",
-        "command": "workbench.action.showAllSymbols"
-    },
-    {
-        "key": "cmd+t",
-        "command": "-workbench.action.showAllSymbols"
-    },
-    {
-        "key": "shift+alt+s",
-        "command": "git.sync"
-    },
-    {
-        "key": "cmd+t",
-        "command": "-git.sync"
+  {
+    "key": "cmd+[Backslash]",
+    "command": "multiCommand.toggleCommentAndLineDown",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "shift+cmd+7",
+    "command": "-editor.action.commentLine",
+    "when": "editorTextFocus && !editorReadonly"
+  },
+  {
+    "key": "f8",
+    "command": "editor.action.marker.nextInFiles",
+    "when": "editorFocus && !editorReadonly"
+  },
+  {
+    "key": "f8",
+    "command": "-editor.action.marker.nextInFiles",
+    "when": "editorFocus && !editorReadonly"
+  },
+  {
+    "key": "cmd+t",
+    "command": "workbench.action.terminal.toggleTerminal",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "alt+f12",
+    "command": "-workbench.action.terminal.toggleTerminal",
+    "when": "terminalFocus"
+  },
+  {
+    "key": "shift+cmd+t",
+    "command": "workbench.action.terminal.new"
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "workbench.action.showAllSymbols"
+  },
+  {
+    "key": "cmd+t",
+    "command": "-workbench.action.showAllSymbols"
+  },
+  {
+    "key": "shift+alt+s",
+    "command": "git.sync"
+  },
+  {
+    "key": "cmd+t",
+    "command": "-git.sync"
+  },
+  {
+    "key": "cmd+[IntlBackslash]",
+    "command": "editor.action.codeAction",
+    "args": {
+      "kind": "source.fixAll.tslint",
+      "apply": "first"
     }
+  },
+  {
+    "key": "tab",
+    "command": "selectNextSuggestion",
+    "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
+  },
 ]
