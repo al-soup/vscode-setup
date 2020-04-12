@@ -48,11 +48,17 @@
     "window.activeBorder": "#d1cdcd11",
     "activityBar.activeBorder": "#FFA500",
     "activityBarBadge.background": "#ff0000",
-    "editor.findMatchBackground": "#e29300c4"
+    "editor.findMatchBackground": "#e29300c4",
+    "statusBar.background": "#5f0000",
+    "statusBar.noFolderBackground": "#5f0000",
+    "statusBar.debuggingBackground": "#5f0000"
   },
   "vscode_custom_css.policy": true,
   "prettier.requireConfig": true,
   "prettier.singleQuote": true,
   "prettier.trailingComma": "es5",
   "typescriptHero.imports.stringQuoteStyle": "\"",
+  "vim.highlightedyank.enable": true,
+  "vim.statusBarColorControl": true,
+  "vim.camelCaseMotion.enable": true,
 }
