@@ -61,4 +61,9 @@
   "vim.highlightedyank.enable": true,
   "vim.statusBarColorControl": true,
   "vim.camelCaseMotion.enable": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.renderControlCharacters": false,
+  "editor.minimap.enabled": false,
+  "editor.mouseWheelZoom": true,
 }
