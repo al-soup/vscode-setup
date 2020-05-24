@@ -5,4 +5,5 @@
 !.gitignore
 !settings.json
 !keybindings.json
+!my-vscode-extensions.txt
 !README.md

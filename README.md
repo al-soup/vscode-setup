@@ -8,4 +8,4 @@ You can use it by replacing the existing ones. In **macOS** the files are locate
 
 Check the *my-vscode-extensions.txt* file for a list of all extensions that I am currently using.
 
-**Batch install**: If you have the [fish shell](https://fishshell.com/) installed you can batch install a list of extensions by saving them under *vs-extensions.txt* in the format above and using [one of my functions](https://github.com/al-soup/my-fish-functions/blob/master/vscodeinstall.fish). Run `vscodeinstall vs-extensions.txt`.
+**Batch install**: If you have the [fish shell](https://fishshell.com/) installed you can batch install a list of extensions by providing them to [this install function](https://github.com/al-soup/my-fish-functions/blob/master/vscodeinstall.fish). Create your own file (`code --list-extensions > my-vscode-extensions.txt`) or use the list of my extensions provided in this repo. Run `vscodeinstall my-vscode-extensions.txt`.
