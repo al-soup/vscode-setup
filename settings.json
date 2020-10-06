@@ -48,9 +48,9 @@
     "activityBar.activeBorder": "#FFA500",
     "activityBarBadge.background": "#ff0000",
     "editor.findMatchBackground": "#e29300c4",
-    "statusBar.background": "#5f0000",
-    "statusBar.noFolderBackground": "#5f0000",
-    "statusBar.debuggingBackground": "#5f0000"
+    "statusBar.background": "#005f5f",
+    "statusBar.noFolderBackground": "#005f5f",
+    "statusBar.debuggingBackground": "#005f5f"
   },
   "vscode_custom_css.policy": true,
   "prettier.requireConfig": true,
@@ -75,4 +75,5 @@
   "customizeUI.titleBar": "inline",
   "customizeUI.activityBar": "bottom",
   "workbench.activityBar.visible": false,
+  "keyboard.dispatch": "keyCode",
 }
