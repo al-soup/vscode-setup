@@ -5,7 +5,6 @@
   "editor.fontFamily": "Dank Mono",
   "editor.fontSize": 13,
   "editor.fontLigatures": true,
-  "editor.lineNumbers": "relative",
   "editor.codeActionsOnSave": {
     "source.fixAll.tslint": true
   },
@@ -15,7 +14,7 @@
   "files.autoSaveDelay": 4500,
   "files.autoSave": "off",
   "explorer.confirmDelete": false,
-  "window.zoomLevel": 0,
+  "window.zoomLevel": 1,
   "multiCommand.commands": [
     {
       "command": "multiCommand.toggleCommentAndLineDown",
@@ -64,6 +63,16 @@
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "editor.renderControlCharacters": false,
-  "editor.minimap.enabled": false,
+  "editor.minimap.enabled": true,
   "editor.mouseWheelZoom": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "dart.checkForSdkUpdates": false,
+  "dart.lineLength": 2000,
+  "vim.easymotionDimBackground": false,
+  "vim.highlightedyank.duration": 400,
+  "customizeUI.titleBar": "inline",
+  "customizeUI.activityBar": "bottom",
+  "workbench.activityBar.visible": false,
 }
