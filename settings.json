@@ -1,16 +1,11 @@
 {
-  "editor.suggestSelection": "first",
   "editor.renderControlCharacters": false,
-  "editor.minimap.enabled": true,
   "editor.mouseWheelZoom": true,
   "editor.multiCursorModifier": "ctrlCmd",
   "editor.formatOnPaste": true,
   "editor.tabSize": 2,
   "editor.fontFamily": "Dank Mono",
   "editor.fontLigatures": true,
-  "editor.codeActionsOnSave": {
-    "source.fixAll.tslint": true
-  },
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.formatOnSave": true,
   "workbench.colorTheme": "Monokai Operator",
@@ -22,13 +17,11 @@
     "activityBar.activeBorder": "#FFA500",
     "activityBarBadge.background": "#ff0000",
     "editor.findMatchBackground": "#e29300c4",
-    "statusBar.background": "#005f5f",
-    "statusBar.noFolderBackground": "#005f5f",
-    "statusBar.debuggingBackground": "#005f5f"
+    "statusBar.background": "#5f0000",
+    "statusBar.noFolderBackground": "#5f0000",
+    "statusBar.debuggingBackground": "#5f0000"
   },
-  "files.autoSaveDelay": 4500,
   "files.autoSave": "off",
-  "explorer.confirmDelete": false,
   "window.zoomLevel": 1,
   "multiCommand.commands": [
     {
@@ -42,7 +35,6 @@
   "typescript.updateImportsOnFileMove.enabled": "always",
   "typescript.preferences.quoteStyle": "double",
   "javascript.preferences.quoteStyle": "double",
-  "material-icon-theme.folders.theme": "classic",
   "nativescript.analytics.enabled": false,
   "material-icon-theme.folders.color": "#90a4ae",
   "emmet.triggerExpansionOnTab": true,
@@ -61,14 +53,14 @@
   "typescriptHero.imports.stringQuoteStyle": "\"",
   "vim.highlightedyank.enable": true,
   "vim.camelCaseMotion.enable": true,
-  "vim.easymotionDimBackground": false,
-  "vim.highlightedyank.duration": 400,
+  "vim.highlightedyank.duration": 500,
+  "vim.statusBarColorControl": true,
+  "vim.easymotion": true,
+  "vim.easymotionMarkerBackgroundColor": "#d1cdcd11",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "dart.checkForSdkUpdates": false,
-  "dart.lineLength": 2000,
   "keyboard.dispatch": "keyCode",
   "[json]": {
     "editor.defaultFormatter": "vscode.json-language-features"
@@ -77,5 +69,6 @@
   "terminal.external.osxExec": "iTerm.app",
   "terminal.integrated.shell.osx": "/usr/local/bin/fish",
   "prettier.printWidth": 100,
-  "vim.statusBarColorControl": true,
+  "editor.renderWhitespace": "trailing",
+  "editor.suggestSelection": "first",
 }

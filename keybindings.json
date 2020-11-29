@@ -39,26 +39,6 @@
     "command": "workbench.action.showAllSymbols"
   },
   {
-    "key": "cmd+t",
-    "command": "-workbench.action.showAllSymbols"
-  },
-  {
-    "key": "shift+alt+s",
-    "command": "git.sync"
-  },
-  {
-    "key": "cmd+t",
-    "command": "-git.sync"
-  },
-  {
-    "key": "cmd+[IntlBackslash]",
-    "command": "editor.action.codeAction",
-    "args": {
-      "kind": "source.fixAll.tslint",
-      "apply": "first"
-    }
-  },
-  {
     "key": "tab",
     "command": "selectNextSuggestion",
     "when": "editorTextFocus && suggestWidgetMultipleSuggestions && suggestWidgetVisible"
@@ -66,11 +46,6 @@
   {
     "key": "alt+cmd+1",
     "command": "workbench.action.splitEditorDown"
-  },
-  {
-    "key": "shift+cmd+c",
-    "command": "-mssql.connect",
-    "when": "editorTextFocus && editorLangId == 'sql'"
   },
   {
     "key": "shift+cmd+c",
