@@ -10,7 +10,7 @@ On **macOS** files are located under _\$HOME/Library/Application Support/Code/Us
 
 Create extension list: `code --list-extensions > vscode-extensions.list`
 
-Install exentsions: `cat vscode-extensions.list | xargs -L 1 code --install-extension`
+Install extensions: `cat vscode-extensions.list | xargs -L 1 code --install-extension`
 
 ## macOS 
 
